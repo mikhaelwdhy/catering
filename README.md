@@ -1,4 +1,4 @@
-# CateringKu - Sistem Pemesanan Paket Catering & Acara (Laravel 12)
+# CateringKu - Sistem Pemesanan Paket Catering & Acara
 
 Aplikasi berbasis web menggunakan **PHP Laravel**, **Laravel Breeze**, **Blade**, **Tailwind CSS**, dan **MySQL** untuk mengelola kategori paket catering, kuota produksi harian, batas minimal pesanan (MOQ), aturan pemesanan minimal H-2, serta verifikasi pesanan berbasis role (`admin` dan `user`).
 
@@ -20,14 +20,17 @@ Database menggunakan 6 tabel utama pada MySQL (`db_catering_app`):
 
 ## Langkah Instalasi
 
-1. Clone repository ini lalu masuk ke folder project:
+1. Jalankan perintah berikut di folder project:
     ```bash
     git clone <URL_REPOSITORY_GITHUB_ANDA>
     cd catering-app
     composer install
     php artisan migrate --seed
     php artisan storage:link
+    ```
+
+## Akun Demo
+
     admin@catering.test / password
     budi@catering.test / password
     agus@catering.test / password
-    ```
