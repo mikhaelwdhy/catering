@@ -1,6 +1,6 @@
 # CateringKu - Sistem Pemesanan Paket Catering & Acara (Laravel 12)
 
-Aplikasi berbasis web menggunakan **PHP Laravel 12**, **Laravel Breeze**, **Blade**, **Tailwind CSS**, dan **MySQL** untuk mengelola kategori paket catering, kuota produksi harian, batas minimal pesanan (MOQ), aturan pemesanan minimal H-2, serta verifikasi pesanan berbasis role (`admin` dan `user`).
+Aplikasi berbasis web menggunakan **PHP Laravel**, **Laravel Breeze**, **Blade**, **Tailwind CSS**, dan **MySQL** untuk mengelola kategori paket catering, kuota produksi harian, batas minimal pesanan (MOQ), aturan pemesanan minimal H-2, serta verifikasi pesanan berbasis role (`admin` dan `user`).
 
 ## Skema Relasi Tabel
 
