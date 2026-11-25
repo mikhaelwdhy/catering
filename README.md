@@ -24,4 +24,10 @@ Database menggunakan 6 tabel utama pada MySQL (`db_catering_app`):
     ```bash
     git clone <URL_REPOSITORY_GITHUB_ANDA>
     cd catering-app
+    composer install
+    php artisan migrate --seed
+    php artisan storage:link
+    admin@catering.test / password
+    budi@catering.test / password
+    agus@catering.test / password
     ```
